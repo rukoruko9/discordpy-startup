@@ -1,5 +1,10 @@
-from discord.ext import commands
 import os
+import discord
+import time
+import random
+from discord.ext import commands
+import requests
+from bs4 import BeautifulSoup
 import traceback
 
 bot =  commands.Bot(command_prefix='/')
